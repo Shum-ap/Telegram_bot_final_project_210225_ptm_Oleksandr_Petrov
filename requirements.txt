@@ -1,0 +1,4 @@
+pymysql
+pymongo
+tabulate
+python-dotenv
