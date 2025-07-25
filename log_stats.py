@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from config import MONGO_URI, MONGO_DB, MONGO_COLLECTION
+from film_bot_project.config import MONGO_URI, MONGO_DB, MONGO_COLLECTION
 
 client = MongoClient(MONGO_URI)
 collection = client[MONGO_DB][MONGO_COLLECTION]

@@ -1,5 +1,5 @@
 import pymysql
-from config import MYSQL_CONFIG
+from film_bot_project.config import MYSQL_CONFIG
 
 # 📦 Устанавливает соединение с базой данных MySQL (Sakila)
 def get_connection():
